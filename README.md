@@ -1,1 +1,21 @@
-# PhaseMap
+PhaseMap/
+  README.md
+  LICENSE        
+  .gitignore
+  data/
+    samples/ttt_synthetic.csv
+  +phasemap/        % MATLAB package (namespaced functions)
+    k_arrhenius.m
+    X_isothermal.m
+    fit_jmak_from_csv.m
+    linear_cooling_curve.m
+    simulate_cooling.m
+    time_at_fraction.m
+  examples/
+    fit_and_plot.m
+    make_cct_curves.m
+  notebooks/
+    01_isothermal_avrami.mlx
+    02_cct_simulation.mlx
+  tests/
+    test_jmak.m
